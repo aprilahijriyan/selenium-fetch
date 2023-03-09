@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "selenium-fetch"
+version = "0.1.0"
+description = "access `fetch()` with selenium!"
+authors = ["aprilahijriyan <hijriyan23@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "selenium_fetch"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+selenium = "^4.8.2"
+pydantic = "^1.10.6"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.11.0"
+undetected-chromedriver = "^3.4.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
