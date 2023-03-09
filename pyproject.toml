@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "selenium-fetch"
-version = "0.1.0"
+version = "0.1.1"
 description = "access `fetch()` with selenium!"
 authors = ["aprilahijriyan <hijriyan23@gmail.com>"]
 license = "MIT"
